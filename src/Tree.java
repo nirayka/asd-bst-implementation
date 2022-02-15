@@ -46,23 +46,5 @@ public class Tree {
         }
     }
 
-    public void search(String token) {
-        ArrayList<String> nodes = new ArrayList<String>();
-        nodes.add(this.data);
-
-
-    }
-
-    public void traverseWithoutPrint() {
-        System.out.println(this.data);
-        if (this.left != null) {
-            this.left.traverse();
-        }
-        if (this.right != null) {
-            this.right.traverse();
-        }
-    }
-
-
 
 }
